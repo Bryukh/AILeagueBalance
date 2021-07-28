@@ -1,65 +1,72 @@
 {
-  "munchkin": {
-    "maxSpeed": 10,
-    "attackDamage": 10,
-    "attackCooldown": 0.5,
-    "maxHealth": 100,
-    "cost": 1,
-    "attackRange": 3,
-    "visualRange": 20
-  },
-  "thrower": {
-    "maxSpeed": 15,
-    "attackDamage": 15,
-    "attackCooldown": 0.75,
-    "maxHealth": 20,
-    "cost": 1,
-    "attackRange": 20,
-    "visualRange": 20
-  },
-  "ogre": {
-    "maxSpeed": 10,
-    "attackDamage": 20,
-    "attackCooldown": 0.5,
-    "maxHealth": 200,
-    "cost": 2,
-    "attackRange": 5,
-    "visualRange": 20
-  },
-  "shaman": {
-    "maxSpeed": 12,
-    "attackDamage": 25,
-    "attackCooldown": 0.65,
-    "maxHealth": 50,
-    "cost": 2,
-    "attackRange": 20,
-    "visualRange": 20
-  },
-  "brawler": {
-    "maxSpeed": 8,
-    "attackDamage": 50,
-    "attackCooldown": 0.5,
-    "maxHealth": 400,
-    "cost": 4,
-    "attackRange": 5,
-    "visualRange": 20
-  },
-  "warlock": {
-    "maxSpeed": 13,
-    "attackDamage": 45,
-    "attackCooldown": 0.65,
-    "maxHealth": 100,
-    "cost": 4,
-    "attackRange": 20,
-    "visualRange": 20
-  },
-  "headhunter": {
-    "maxSpeed": 13,
-    "attackDamage": 50,
-    "attackCooldown": 0.75,
-    "maxHealth": 200,
-    "cost": 5,
-    "attackRange": 20,
-    "visualRange": 20
+    "munchkin": {
+      "type": "munchkin",
+      "cost": 1,
+      "maxSpeed": 10,
+      "maxHealth": 100,
+      "attackDamage": 10,
+      "attackCooldown": 0.5,
+      "attackRange": 3,
+      "visualRange": 20
+    },
+    "thrower": {
+      "type": "thrower",
+      "cost": 1,
+      "maxSpeed": 15,
+      "maxHealth": 50,
+      "attackDamage": 15,
+      "attackCooldown": 0.75,
+      "attackRange": 20,
+      "visualRange": 20
+    },
+    "ogre": {
+      "type": "ogre",
+      "cost": 2,
+      "maxSpeed": 10,
+      "maxHealth": 200,
+      "attackDamage": 20,
+      "attackCooldown": 0.5,
+      "attackRange": 5,
+      "visualRange": 20
+    },
+    "shaman": {
+      "type": "shaman",
+      "cost": 2,
+      "maxSpeed": 12,
+      "maxHealth": 100,
+      "attackDamage": 25,
+      "attackCooldown": 0.65,
+      "attackRange": 20,
+      "visualRange": 20
+    },
+    "brawler": {
+      "type": "brawler",
+      "cost": 4,
+      "maxSpeed": 8,
+      "maxHealth": 400,
+      "attackDamage": 40,
+      "attackCooldown": 0.5,
+      "attackRange": 5,
+      "visualRange": 20
+    },
+    "warlock": {
+      "type": "warlock",
+      "cost": 4,
+      "maxSpeed": 13,
+      "maxHealth": 200,
+      "attackDamage": 50,
+      "attackCooldown": 0.65,
+      "attackRange": 20,
+      "visualRange": 20
+    },
+    "headhunter": {
+      "type": "headhunter",
+      "cost": 5,
+      "maxSpeed": 13,
+      "maxHealth": 300,
+      "attackDamage": 55,
+      "attackCooldown": 0.75,
+      "attackRange": 20,
+      "visualRange": 20
+    }
   }
-}
